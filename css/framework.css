@@ -2,7 +2,7 @@
     border: 3px solid red;
 }
 
-[class^="col"] {
+.row>[class^="col"] {
     border: 2px dashed rgb(17, 17, 16);
     min-height: 100px;
 }

@@ -12,8 +12,13 @@ header {
 #portfolio,#contacts{
     background-color: white;
 }
+
 section{
     margin-bottom: 30px;
+}
+
+img{
+    width: 100%;
 }
 
 footer{
