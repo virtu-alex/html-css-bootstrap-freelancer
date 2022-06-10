@@ -46,11 +46,19 @@ section{
 border: 1px solid white;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .star-bar{
     height: 5px;
     background-color: white;
-    width: 30%;
-    
+    width: 20%;    
+}
+
+textarea{
+    resize: none;
 }
 
 .jumbotron>h4{
@@ -110,4 +118,8 @@ footer i{
 
 .bck-pink{
     background-color: #CCB2A3;
+}
+
+.bck-greenblue{
+    background-color: #19BC9C;
 }
