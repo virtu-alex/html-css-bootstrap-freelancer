@@ -1,15 +1,21 @@
 header {
     height: 100px;
     background-color: #2C3E50;
-    margin-bottom: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
-#start-bootstrap, #about {
-    height: 500px;
+body{
+    padding-top: 100px;
+}
+
+#jumbotron, #about {
     background-color: #19BC9C;
 }
 
-#portfolio,#contacts{
+#portfolio, #contacts{
     background-color: white;
 }
 
@@ -17,25 +23,91 @@ section{
     margin-bottom: 30px;
 }
 
+#jumbotron h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+#about p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: start;
+}
+
+.fa-star{
+    font-size: 2rem;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+}
+
+#about .btn{
+border: 1px solid white;
+}
+
+.star-bar{
+    height: 5px;
+    background-color: white;
+    width: 30%;
+    
+}
+
+.jumbotron>h4{
+    font-size: 1rem;
+}
+
+.f-size-1{
+    font-size: 1rem;
+}
+
 img{
     width: 100%;
 }
 
 footer{
-    margin-top: 30px;
     background-color: #39546D;
+    color: white;
+    font-weight: 500;
 }
 
-.bck-belowfooter{
+footer i{
+    padding: 10px;
+    font-size: 2.5rem;
+    border: 1px solid white;
+}
+
+/* PALETTA COLORI */
+
+.green{
+    color: green;
+}
+
+.below-footer{
     background-color: #2C3E50;
+    height: 100px;
 }
 
-/* ***************** */
-/* RICORDA DI RIMUOVERE */
-/* ***************** */
-
-.row>.col-9, .row>.col-5{
-    min-height: 250px;
+.bck-darkred{
+    background-color: #BA4B63;
 }
 
-/* ********************** */
+.bck-azure{
+    background-color: #1FA4B6;
+}
+
+.bck-black{
+    background-color: #140F0F;
+}
+
+.bck-lightblue{
+    background-color: #1D83C1;
+}
+
+.bck-blue{
+    background-color: #0D38B5;
+}
+
+.bck-pink{
+    background-color: #CCB2A3;
+}
